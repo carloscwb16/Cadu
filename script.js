@@ -7,22 +7,17 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
 {
     enunciado: "No âmbito social, você prefere:",
-    alternativas: ["Alternativa 1", "Alternativa 2"]
+    alternativas: ["Todas as pessoas que você conhece deixam de falar com você ou amizade para sempre com uma só pessoa", "Você tem o carro mais valioso do mundo mas ninguém da sua família sabe ou você tem o carro mais lento do mundo e todos da sua família sabe"]
 },
 {
     enunciado: "No âmbito ambiental, você prefere:",
-    alternativas: ["Alternativa 3", "Alternativa 4"]
+    alternativas: ["Você combate o aquecimento global mas acaba falhando na missão ou você vive em um mundo que o aquecimento global acabou", "Você morre combatendo o desmatamento ou você vive em um mundo sem florestas"]
 },
 {
     enunciado: "No âmbito tecnológico, você prefere:",
-    alternativas: ["Alternativa 5", "Alternativa 6"]
+    alternativas: ["Você constrói o carro mais tecnológico do mundo mas não vai poder usá-lo ou usar um carro problemático", "Usar alguma tecnologia antiga ou não poder usar uma tecnologia atual"]
 }
 
 ]
-const valores = [120, 30, 321, 546, 897];
-let soma = 0;
-for(const valor of valores){
-    soma = soma + valor;
-}
-let calculo = soma/valores.length;
-console.log("A média dos valores foi: " + calculo)
+
+let atual = 0;
