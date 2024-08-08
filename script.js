@@ -17,4 +17,12 @@ const perguntas = [
     enunciado: "No âmbito tecnológico, você prefere:",
     alternativas: ["Alternativa 5", "Alternativa 6"]
 }
+
 ]
+const valores = [120, 30, 321, 546, 897];
+let soma = 0;
+for(const valor of valores){
+    soma = soma + valor;
+}
+let calculo = soma/valores.length;
+console.log("A média dos valores foi: " + calculo)
