@@ -7,15 +7,22 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
 {
     enunciado: "No âmbito social, você prefere:",
-    alternativas: ["Todas as pessoas que você conhece deixam de falar com você ou amizade para sempre com uma só pessoa", "Você tem o carro mais valioso do mundo mas ninguém da sua família sabe ou você tem o carro mais lento do mundo e todos da sua família sabe"]
+    alternativas: [
+        {
+          texto:  "Todas as pessoas que você conhece deixam de falar com você ou amizade para sempre com uma só pessoa", "Você tem o carro mais valioso do mundo mas ninguém da sua família sabe ou você tem o carro mais lento do mundo e todos da sua família sabe"],
+          afirmação:,
 },
 {
     enunciado: "No âmbito ambiental, você prefere:",
-    alternativas: ["Você combate o aquecimento global mas acaba falhando na missão ou você vive em um mundo que o aquecimento global acabou", "Você morre combatendo o desmatamento ou você vive em um mundo sem florestas"]
+    alternativas: [
+        texto: "Você combate o aquecimento global mas acaba falhando na missão ou você vive em um mundo que o aquecimento global acabou", "Você morre combatendo o desmatamento ou você vive em um mundo sem florestas"],
+        afirmação:,
 },
 {
     enunciado: "No âmbito tecnológico, você prefere:",
-    alternativas: ["Você constrói o carro mais tecnológico do mundo mas não vai poder usá-lo ou usar um carro problemático", "Usar alguma tecnologia antiga ou não poder usar uma tecnologia atual"]
+    alternativas: [
+        texto: "Você constrói o carro mais tecnológico do mundo mas não vai poder usá-lo ou usar um carro problemático", "Usar alguma tecnologia antiga ou não poder usar uma tecnologia atual"],
+        afirmação:,
 }
 
 ]
