@@ -67,15 +67,13 @@ function mostraAlternativas() {
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
         botaoAlternativa.addEventListener("click", ()=> opcaoSelecionada(afirmacao){
-            function opcaoSelecionada (){
-                const afirmacoes = opcaoSelecionada.afirmacoes;
             
-            atual++;
-            mostraPerguntas();
-            }
         })
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
-
+function opcaoSelecionada (){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    atual++;
+    mostraPerguntas();
 mostraPerguntas();
