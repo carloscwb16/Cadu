@@ -71,7 +71,7 @@ function mostraAlternativas() {
     }
 }
 function opcaoSelecionada (){
-    const afirmacoes = opcaoSelecionada.afirmacoes;
+    const afirmacoes = opcaoSelecionada.afirmacao;
     atual++;
     mostraPerguntas();
 }
