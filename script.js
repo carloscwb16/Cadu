@@ -81,6 +81,8 @@ function respostaSelecionada (opcaoSelecionada){
     mostraPerguntas();
 }
 function mostraResultado(){
+    caixaPerguntas.textContent = "Em resumo, você escolheu bem";
+    textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 mostraPerguntas();
