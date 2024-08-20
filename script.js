@@ -70,7 +70,7 @@ function mostraAlternativas() {
         caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
-function opcaoSelecionada (){
+function respostaSelecionada (opcaoSelecionada){
     const afirmacao = opcaoSelecionada.(afirmacao);
     atual++;
     mostraPerguntas();
