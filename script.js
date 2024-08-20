@@ -80,5 +80,8 @@ function respostaSelecionada (opcaoSelecionada){
     atual++;
     mostraPerguntas();
 }
+function mostraResultado(){
+    caixaAlternativas.textContent = "";
+}
 mostraPerguntas();
 
