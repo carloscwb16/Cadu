@@ -58,7 +58,7 @@ let historiaFinal = "";
 function mostraPerguntas() {
     if(atual >= perguntas.length){
 mostraResultado();
-return
+return;
     }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
